@@ -1,0 +1,51 @@
+header {
+  background-color: rgb(39, 39, 39);
+  color: #fff;
+}
+.cases-summary-general {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.cases-summary {
+  width: 100%;
+}
+.cases-summary div {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: rgb(247, 236, 236);
+  border-radius: 0px 0px 50px 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.discharged {
+  background-color: rgb(10, 117, 6);
+}
+.death {
+  background-color: rgb(180, 8, 8);
+}
+.active {
+  background-color: rgb(6, 6, 163);
+}
+.sample {
+  background-color: rgb(73, 4, 138);
+}
+
+@media screen and (max-width: 768px) {
+  .cases-summary-general {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cases-summary-general {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(48%, 1fr));
+  }
+}
+@media screen and (max-width: 480px) {
+  .cases-summary-general {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(100%, 1fr));
+  }
+}

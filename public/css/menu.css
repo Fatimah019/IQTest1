@@ -1,0 +1,26 @@
+.task-one-header {
+  width: 60%;
+  margin: auto;
+}
+.task-one-header h1 {
+  color: rgba(12, 12, 85, 0.6);
+}
+.task-one-header div ul {
+  padding: 0;
+  margin: 60px 0px;
+  border-bottom: 1px solid #000;
+  overflow-x: auto;
+}
+
+.task-one-header ul li .links {
+  color: rgba(12, 12, 85, 0.4);
+  font-size: 28px;
+}
+
+.active {
+  background-color: transparent;
+  border-bottom: 10px solid yellow;
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+}
