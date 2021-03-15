@@ -1,60 +1,34 @@
 .task-one-pg-1 {
   width: 60%;
   margin: auto;
-  height: 100vh;
-}
-.task-one-pg-1 form,
-.task-one-pg-1 form label {
-  width: 100%;
-  margin: auto;
 }
 .task-one-pg-1 label p {
-  font-size: 26px;
   font-weight: 600;
 }
-.location div {
+.task-one-pg-1 label .desc {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+}
+.location {
+  display: flex;
+  justify-content: space-between;
+}
+.input-select-location {
+  width: 50%;
+  margin-left: 40px;
+}
+.input-select {
+  width: 100%;
+  padding: 3.5% 0;
+  border: 1px solid rgba(12, 12, 85, 0.787);
+  background-color: #fff;
+  border-radius: 10px;
+}
+/* .location div {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-.location div label {
-  width: 100%;
-}
-/* .location div label input {
-  width: 10%;
-} */
-/* .task-one-pg-1 form label input {
-  width: 97%;
-  margin: auto;
-  padding: 20px 20px;
-  font-size: 26px;
-  border: 1px solid rgba(12, 12, 85, 0.787);
-  border-radius: 10px;
-} */
-/* }
-.task-one-pg-1 form {
-  width: 60%;
-  margin: auto;
-}
-.taskone-pg-1 form label {
-  font-weight: 700;
-  font-size: 180%;
-}
-.taskone-pg-1 form input {
-  width: 97%;
-  border-radius: 10px;
-  background-color: #fff;
-  border: 1px solid rgba(12, 12, 85, 0.787);
-  padding: 20px 15px;
-  font-size: 150%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-.taskone-pg-1 form div {
-  width: 100%;
 } */
 
 /* page two */
@@ -196,9 +170,24 @@ tr td {
 }
 
 /* media queries */
-
+@media screen and (max-width: 900px) {
+  .pg-four-con,
+  .taskone-pg-three table,
+  .taskone-pg-three form,
+  .billing-form,
+  .task-one-pg-1 {
+    width: 65%;
+  }
+  .input-select-location {
+    width: 50%;
+    margin-left: 25px;
+    padding: 2% 0;
+    border: 1px solid rgba(12, 12, 85, 0.787);
+    background-color: #fff;
+    border-radius: 10px;
+  }
+}
 @media screen and (max-width: 768px) {
-  .location,
   .card-details {
     flex-direction: column;
   }
@@ -209,6 +198,13 @@ tr td {
   .billing-form,
   .task-one-pg-1 {
     width: 70%;
+  }
+  .input-select-location {
+    width: 50%;
+    margin-left: 10px;
+  }
+  .input-select {
+    padding: 2.5% 0;
   }
   .fa-check {
     padding: 20px;
@@ -241,6 +237,16 @@ tr td {
   .billing-form,
   .task-one-pg-1 {
     width: 80%;
+  }
+  .location {
+    flex-direction: column;
+  }
+  .location label,
+  .input-select-location {
+    width: 100%;
+  }
+  .input-select {
+    padding: 2% 0;
   }
   .fa-check {
     font-size: 30px;
@@ -287,8 +293,4 @@ tr td {
 }
 .card-details-g label {
   width: 90%;
-}
-.desc {
-  color: #000;
-  font-size: 18px;
 }

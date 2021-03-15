@@ -20,12 +20,9 @@ class TaskOne extends React.Component {
               <p>
                 Email Address <sup>*</sup>
               </p>
-              <div>
-                {" "}
-                <p class="desc">
-                  The purchase receipt will be sent to this address
-                </p>
-              </div>
+              <p class="desc">
+                The purchase receipt will be sent to this address
+              </p>
               <label class="flex align-center justify-content-center input">
                 <input type="email" placeholder="OparaLinusAhmed@devmail.com" />
               </label>
@@ -44,11 +41,32 @@ class TaskOne extends React.Component {
             <label>
               <p>Address 2</p>
               <label class="flex align-center justify-content-center input">
-                <input type="text" placeholder="andhere" />
+                <input type="text" placeholder="and here" />
               </label>
             </label>
             <br />
-            <label className="flex space-between location">
+
+            <div className="location">
+              <label>
+                <p>Local Government</p>
+                <label className="flex align-center justify-content-center input">
+                  <input type="text" placeholder="Surulere" />
+                </label>
+              </label>
+              <label className="input-select-location">
+                <p>State</p>
+                <label className="flex align-center justify-content-center input-select">
+                  <select>
+                    <option>Lagos</option>
+                    <option>Abuja</option>
+                    <option>Kano</option>
+                    <option>Anambra</option>
+                  </select>
+                </label>
+              </label>
+            </div>
+
+            {/* <label className="flex space-between location">
               <div>
                 {" "}
                 <p>Local Government</p>
@@ -62,7 +80,7 @@ class TaskOne extends React.Component {
                   <input type="text" placeholder="Lagos" />
                 </label>
               </div>
-            </label>
+            </label> */}
 
             <div className="flex align-center forward">
               <Link to="/billing" className="btn">
