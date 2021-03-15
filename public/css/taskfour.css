@@ -49,6 +49,12 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
+  .cases-summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
   .cases-summary-general {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
