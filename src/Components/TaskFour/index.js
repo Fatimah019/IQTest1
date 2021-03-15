@@ -62,25 +62,25 @@ class TaskFour extends React.Component {
                   <h3>{cases.state}</h3>
                   <div className="cases-summary-general-2">
                     <div className="justify-content-center text-center cases-summary">
-                      <p>Discharged</p>
+                      <p className="no-text-wrap">Discharged</p>
                       <div className="text-center">
                         <p>{cases.discharged}</p>
                       </div>
                     </div>
                     <div className="justify-content-center text-center cases-summary">
-                      <p>Death Cases</p>
+                      <p className="no-text-wrap">Death Cases</p>
                       <div className="text-center">
                         <p>{cases.death}</p>
                       </div>
                     </div>
                     <div className="justify-content-center text-center cases-summary">
-                      <p>Confirmed Cases</p>
+                      <p className="no-text-wrap">Confirmed Cases</p>
                       <div className="text-center">
                         <p>{cases.confirmedCases}</p>
                       </div>
                     </div>
                     <div className="justify-content-center text-center cases-summary">
-                      <p>On Admission</p>
+                      <p className="no-text-wrap">On Admission</p>
                       <div className="text-center">
                         <p>{cases.casesOnAdmission}</p>
                       </div>

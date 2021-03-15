@@ -11,14 +11,26 @@
   font-size: 26px;
   font-weight: 600;
 }
-.task-one-pg-1 form label input {
+.location div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.location div label {
+  width: 100%;
+}
+/* .location div label input {
+  width: 10%;
+} */
+/* .task-one-pg-1 form label input {
   width: 97%;
   margin: auto;
   padding: 20px 20px;
   font-size: 26px;
   border: 1px solid rgba(12, 12, 85, 0.787);
   border-radius: 10px;
-}
+} */
 /* }
 .task-one-pg-1 form {
   width: 60%;
@@ -54,26 +66,25 @@
   color: rgba(12, 12, 85, 0.787);
 }
 .billing-form label,
-.billing-form input,
-.billing-form .card-details,
-select {
+.billing-form .card-details {
   width: 100%;
 }
 .card-details div,
 .billing-final {
   width: 100%;
 }
-.card-details label,
-.card-details input {
+.card-details label {
   width: 80%;
 }
-.billing-form input,
+.card-details {
+}
+/* .billing-form input,
 .card-details input,
 select {
   padding: 15px 10px;
   font-size: 26px;
   border-radius: 10px;
-}
+} */
 /* page three */
 .taskone-pg-three {
   display: flex;
@@ -185,9 +196,10 @@ tr td {
 
 @media screen and (max-width: 768px) {
   .location,
-  .card-details-g {
+  .card-details {
     flex-direction: column;
   }
+
   .pg-four-con,
   .taskone-pg-three table,
   .taskone-pg-three form,
@@ -208,8 +220,7 @@ tr td {
   .items-payment,
   .total,
   .thead,
-  .card-details label,
-  .card-details input {
+  .card-details label {
     width: 85%;
   }
 
@@ -240,8 +251,7 @@ tr td {
   .items-payment,
   .total,
   .thead,
-  .card-details label,
-  .card-details input {
+  .card-details label {
     width: 90%;
   }
   .thead p {
@@ -272,7 +282,9 @@ tr td {
     font-size: 22px;
   }
 }
-
+.card-details-g label {
+  width: 90%;
+}
 .desc {
   color: #000;
   font-size: 18px;

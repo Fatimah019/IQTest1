@@ -10,19 +10,17 @@ export default class Menu extends React.Component {
         <div>
           <ul className="flex space-between">
             <li className="active">
-              <Link to="/" className="links">
+              <Link to="/" className="links no-text-wrap">
                 Personal Info
               </Link>
             </li>
             <li>
-              {" "}
-              <Link to="/billing" className="links">
+              <Link to="/billing" className="links no-text-wrap">
                 Biling Info
               </Link>
             </li>
             <li>
-              {" "}
-              <Link to="/confirm-payment" className="links">
+              <Link to="/confirm-payment" className="links no-text-wrap">
                 Confirm Payment
               </Link>
             </li>

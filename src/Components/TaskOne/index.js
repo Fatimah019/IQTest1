@@ -11,7 +11,9 @@ class TaskOne extends React.Component {
           <form>
             <label>
               <p>Name</p>
-              <input type="text" placeholder="Opara Linus Ahmed" />
+              <label class="flex align-center justify-content-center input">
+                <input type="text" placeholder="Opara Linus Ahmed" />
+              </label>
             </label>
             <br />
             <label>
@@ -24,31 +26,41 @@ class TaskOne extends React.Component {
                   The purchase receipt will be sent to this address
                 </p>
               </div>
-              <input type="email" placeholder="OparaLinusAhmed@devmail.com" />
+              <label class="flex align-center justify-content-center input">
+                <input type="email" placeholder="OparaLinusAhmed@devmail.com" />
+              </label>
             </label>
             <br />
             <label>
               <p>Address 1</p>
-              <input
-                type="text"
-                placeholder="The Address of the user goes here"
-              />
+              <label class="flex align-center justify-content-center input">
+                <input
+                  type="text"
+                  placeholder="The Address of the user goes here"
+                />
+              </label>
             </label>
             <br />
             <label>
               <p>Address 2</p>
-              <input type="text" placeholder="and here" />
+              <label class="flex align-center justify-content-center input">
+                <input type="text" placeholder="andhere" />
+              </label>
             </label>
             <br />
             <label className="flex space-between location">
               <div>
                 {" "}
                 <p>Local Government</p>
-                <input type="text" placeholder="Surulere" />
+                <label class="flex align-center justify-content-center input">
+                  <input type="text" placeholder="Surulere" />
+                </label>
               </div>
               <div>
                 <p>State</p>
-                <input type="text" placeholder="Lagos" />
+                <label class="flex align-center justify-content-center input">
+                  <input type="text" placeholder="Lagos" />
+                </label>
               </div>
             </label>
 

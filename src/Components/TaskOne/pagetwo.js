@@ -12,17 +12,21 @@ export default class PageTwo extends Component {
             <p>
               Name on Card <sup>*</sup>
             </p>
-            <input type="text" placeholder="Opara Linus Ahmed" />
+            <label class="flex align-center justify-content-center input">
+              <input type="text" placeholder="Opara Linus Ahmed" />
+            </label>
           </label>
           <label>
             <p>
               Card Type <sup>*</sup>
             </p>
-            <select>
-              <option>Visa</option>
-              <option>Verve</option>
-              <option>Master</option>
-            </select>
+            <label class="flex align-center justify-content-center input">
+              <select>
+                <option>Visa</option>
+                <option>Verve</option>
+                <option>Master</option>
+              </select>
+            </label>
           </label>
           <div className="flex space-between card-details">
             <div>
@@ -30,29 +34,39 @@ export default class PageTwo extends Component {
                 <p>
                   Card details <sup>*</sup>
                 </p>
-                <input
-                  type="text"
-                  placeholder="44960  44960  44960 44960"
-                  className="text-center"
-                />
+                <label class="flex align-center justify-content-center input">
+                  <input
+                    type="text"
+                    placeholder="44960  44960  44960 44960"
+                    className="text-center"
+                  />
+                </label>
               </label>
             </div>
-            <div className="flex space-between text-center card-details-g">
+            <div className="flex space-between text-center card-details-g align-center flex-end">
               <label className="text-center">
                 <p>
                   Expiry date <sup>*</sup>
                 </p>
-                <input
-                  type="text"
-                  placeholder="04 / 23"
-                  className="text-center"
-                />
+                <label class="flex align-center justify-content-center input">
+                  <input
+                    type="text"
+                    placeholder="04 / 23"
+                    className="text-center"
+                  />
+                </label>
               </label>
               <label className="text-center">
                 <p>
                   CVV <sup>*</sup>
                 </p>
-                <input type="text" placeholder="923" className="text-center" />
+                <label class="flex align-center justify-content-center input">
+                  <input
+                    type="text"
+                    placeholder="923"
+                    className="text-center"
+                  />
+                </label>
               </label>
             </div>
           </div>
