@@ -83,6 +83,9 @@ select {
 select {
   color: rgba(0, 0, 0, 0.6);
 }
+option {
+  color: red;
+}
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 50px;
