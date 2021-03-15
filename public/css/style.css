@@ -27,9 +27,6 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
-input {
-  outline: none;
-}
 .container {
   width: 80%;
   margin: auto;
@@ -119,6 +116,9 @@ sup {
     font-size: 50px;
   }
   p,
+  .input {
+    padding: 2.5% 0;
+  }
   input,
   select {
     font-size: 22;

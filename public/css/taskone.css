@@ -177,14 +177,6 @@ tr td {
   .task-one-pg-1 {
     width: 65%;
   }
-  .input-select-location {
-    width: 50%;
-    margin-left: 25px;
-    padding: 2% 0;
-    border: 1px solid rgba(12, 12, 85, 0.787);
-    background-color: #fff;
-    border-radius: 10px;
-  }
 }
 @media screen and (max-width: 768px) {
   .card-details {
@@ -239,7 +231,7 @@ tr td {
     width: 100%;
   }
   .input-select-location {
-    margin: 0px;
+    margin-left: 0px;
   }
   .card-details {
     flex-direction: column;
