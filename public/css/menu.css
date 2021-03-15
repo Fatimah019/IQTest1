@@ -19,7 +19,7 @@
 
 .active {
   background-color: transparent;
-  border-bottom: 10px solid yellow;
+  /* border-bottom: 10px solid yellow; */
   display: flex;
   align-items: center;
   padding-bottom: 30px;

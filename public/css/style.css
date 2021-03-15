@@ -15,33 +15,21 @@ h1 {
 h2 {
   font-size: 55px;
 }
-h3 {
-  font-size: 40px;
-}
-h4 {
-  font-size: 24px;
-}
 p {
   font-size: 24px;
 }
 li {
   list-style-type: none;
-  font-size: 14px;
 }
 a {
   text-decoration: none;
   cursor: pointer;
 }
-/* i{
-  color:#fff;
-} */
-
+input {
+  outline: none;
+}
 .container {
   width: 80%;
-  margin: auto;
-}
-.container-2 {
-  width: 70%;
   margin: auto;
 }
 .container-fluid {
@@ -50,12 +38,6 @@ a {
 }
 .text-center {
   text-align: center;
-}
-.text-right {
-  text-align: right;
-}
-.margin-auto {
-  margin: auto;
 }
 .justify-content-center {
   justify-content: center;
@@ -66,64 +48,26 @@ a {
 .space-around {
   justify-content: space-around;
 }
-.space-evenly {
-  justify-content: space-evenly;
-}
 .align-center {
   align-items: center;
 }
 .flex-start {
   align-items: flex-start;
 }
-.flex-end {
-  display: flex;
-  align-items: flex-end;
-}
 .flex {
   display: flex;
-}
-.flex-row {
-  display: flex;
-  flex-direction: row;
 }
 .flex-col {
   display: flex;
   flex-direction: column;
 }
-.flex-basis {
-  flex-basis: 0;
-  flex-grow: 1;
-}
-.flex-wrap {
-  display: flex;
-  flex-wrap: wrap;
-  flex-basis: 20%;
-  flex-grow: 1;
-}
-
-.link {
-  color: #000;
-}
 
 @media screen and (max-width: 768px) {
-  .flex-row {
-    flex-direction: column;
-  }
   h1 {
     font-size: 50px;
   }
-  h2 {
-    font-size: 35px;
-  }
-  h3 {
-    font-size: 30px;
-  }
-  h4 {
-    font-size: 23px;
-    font-weight: bolder;
-  }
   p {
-    font-size: 22px;
+    font-size: 1%;
   }
 }
 
@@ -134,19 +78,8 @@ a {
   h2 {
     font-size: 28px;
   }
-  h3 {
-    font-size: 25px;
-  }
-  h4 {
-    font-size: 22px;
-    font-weight: bolder;
-  }
   p {
     font-size: 20px;
-  }
-  li {
-    list-style-type: none;
-    font-size: 13px;
   }
 }
 
@@ -166,10 +99,6 @@ a {
   }
   p {
     font-size: 18px;
-  }
-  li {
-    list-style-type: none;
-    font-size: 12px;
   }
 }
 

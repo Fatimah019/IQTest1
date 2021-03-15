@@ -34,7 +34,7 @@ class TaskFour extends React.Component {
           </div>
           <div className="justify-content-center text-center cases-summary">
             <p>Active Cases</p>
-            <div className="text-center active">
+            <div className="text-center activecase">
               <p>{this.props.covidcases.totalActiveCases}</p>
             </div>
           </div>
@@ -63,25 +63,25 @@ class TaskFour extends React.Component {
                   <div className="cases-summary-general">
                     <div className="justify-content-center text-center cases-summary">
                       <p>Discharged</p>
-                      <div className="text-center discharged">
+                      <div className="text-center">
                         <p>{cases.discharged}</p>
                       </div>
                     </div>
                     <div className="justify-content-center text-center cases-summary">
                       <p>Death Cases</p>
-                      <div className="text-center death">
+                      <div className="text-center">
                         <p>{cases.death}</p>
                       </div>
                     </div>
                     <div className="justify-content-center text-center cases-summary">
                       <p>Confirmed Cases</p>
-                      <div className="text-center active">
+                      <div className="text-center">
                         <p>{cases.confirmedCases}</p>
                       </div>
                     </div>
                     <div className="justify-content-center text-center cases-summary">
                       <p>On Admission</p>
-                      <div className="text-center sample">
+                      <div className="text-center">
                         <p>{cases.casesOnAdmission}</p>
                       </div>
                     </div>

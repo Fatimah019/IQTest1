@@ -9,52 +9,64 @@ export default class PageTwo extends Component {
         <Menu />
         <form className="billing-form">
           <label>
-            Name on Card <sup>*</sup>
+            <p>
+              Name on Card <sup>*</sup>
+            </p>
+            <input type="text" placeholder="Opara Linus Ahmed" />
           </label>
-          <br />
-          <input type="text" placeholder="Opara Linus Ahmed" />
-          <br />
-
           <label>
-            Card Type <sup>*</sup>
+            <p>
+              Card Type <sup>*</sup>
+            </p>
+            <select>
+              <option>Visa</option>
+              <option>Verve</option>
+              <option>Master</option>
+            </select>
           </label>
-          <span>The purchase receipt will be sent to this address</span>
-          <br />
-          <input type="email" placeholder="OparaLinusAhmed@devmail.com" />
-          <br />
-
           <div className="flex space-between card-details">
             <div>
-              {" "}
               <label>
-                Card details <sup>*</sup>
+                <p>
+                  Card details <sup>*</sup>
+                </p>
+                <input
+                  type="text"
+                  placeholder="44960  44960  44960 44960"
+                  className="text-center"
+                />
               </label>
-              <br />
-              <input type="text" placeholder="Surulere" />
             </div>
-            <div>
-              <label>
-                Expiry date <sup>*</sup>
+            <div className="flex space-between text-center">
+              <label className="text-center">
+                <p>
+                  Expiry date <sup>*</sup>
+                </p>
+                <input
+                  type="text"
+                  placeholder="04 / 23"
+                  className="text-center"
+                />
               </label>
-              <br />
-              <input type="text" placeholder="Surulere" />
-            </div>
-            <div>
-              <label>
-                CVV <sup>*</sup>
+              <label className="text-center">
+                <p>
+                  CVV <sup>*</sup>
+                </p>
+                <input type="text" placeholder="923" className="text-center" />
               </label>
-              <br />
-              <input type="text" placeholder="Surulere" />
             </div>
           </div>
           <br />
-          <div className="flex align-center forward">
-            <Link to="/confirm-payment" className="btn">
-              Next
-            </Link>
-            <Link to="/cancel-payment" className="link-page">
-              Cancel Payment
-            </Link>
+
+          <div class="billing-final">
+            <div className="flex align-center forward">
+              <Link to="/confirm-payment" className="btn">
+                Next
+              </Link>
+              <Link to="/cancel-payment" className="link-page">
+                Cancel Payment
+              </Link>
+            </div>
           </div>
         </form>
       </div>

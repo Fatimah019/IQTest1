@@ -44,56 +44,41 @@
   width: 100%;
 } */
 
-/* page four */
-.taskone-pg-four {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  overflow-y: auto;
-}
-.pg-four-con {
+/* page two */
+.billing-form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   width: 60%;
-  background-color: #fff;
-  height: 70vh;
-  border-radius: 20px;
   margin: auto;
-  box-shadow: 4px 8px rgba(121, 120, 120, 0.3);
-  overflow-y: auto;
-}
-.fa-check {
-  background-color: #fff;
-  box-shadow: 4px 4px rgba(121, 120, 120, 0.3);
-  border-radius: 100%;
-  padding: 30px;
-  font-size: 45px;
-}
-.confirm-payment {
-  width: 65%;
-}
-.confirm-payment h1 {
   color: rgba(12, 12, 85, 0.787);
 }
-.confirm-payment p {
-  color: rgb(73, 73, 73);
+.billing-form label,
+.billing-form input,
+.billing-form .card-details,
+select {
+  width: 100%;
+}
+.card-details div,
+.billing-final {
+  width: 100%;
+}
+.card-details label,
+.card-details input {
+  width: 80%;
+}
+.billing-form input,
+.card-details input,
+select {
+  padding: 15px 10px;
   font-size: 26px;
+  border-radius: 10px;
 }
-.home-link {
-  color: rgba(199, 139, 28, 0.918);
-  font-size: 24px;
-  border-bottom: 3px solid rgba(199, 139, 28, 0.918);
-}
-
 /* page three */
 .taskone-pg-three {
-  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* overflow-y: scroll; */
 }
 .taskone-pg-three table {
   display: flex;
@@ -101,11 +86,12 @@
   align-items: center;
   width: 60%;
   background-color: #fff;
-  height: 60vh;
   border-radius: 20px;
   margin: auto;
   box-shadow: 4px 8px rgba(121, 120, 120, 0.3);
   color: rgba(12, 12, 85, 0.787);
+  overflow-y: auto;
+  padding-bottom: 50px;
 }
 .taskone-pg-three form {
   width: 60%;
@@ -122,7 +108,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 50%;
 }
 .items-payment tr {
   margin-top: 25px;
@@ -152,24 +137,136 @@ tr td {
   font-size: 24px;
 }
 
-/* page two */
-.billing-form {
+/* page four */
+.taskone-pg-four {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  overflow-y: auto;
+}
+.pg-four-con {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   width: 60%;
+  background-color: #fff;
+  border-radius: 20px;
   margin: auto;
+  box-shadow: 4px 8px rgba(121, 120, 120, 0.3);
+  overflow-y: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.fa-check {
+  background-color: #fff;
+  box-shadow: 4px 4px rgba(121, 120, 120, 0.3);
+  border-radius: 100%;
+  padding: 30px;
+  font-size: 45px;
+}
+.confirm-payment {
+  width: 65%;
+}
+.confirm-payment h1 {
   color: rgba(12, 12, 85, 0.787);
 }
-.billing-form label,
-.billing-form input,
-.billing-form .card-details {
-  width: 100%;
+.confirm-payment p {
+  color: rgb(73, 73, 73);
+  font-size: 26px;
 }
-.card-details div {
-  width: 100%;
+.home-link {
+  color: rgba(199, 139, 28, 0.918);
+  font-size: 24px;
+  border-bottom: 3px solid rgba(199, 139, 28, 0.918);
 }
-.card-details label,
-.card-details input {
-  width: 80%;
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+  .pg-four-con,
+  .taskone-pg-three table,
+  .taskone-pg-three form,
+  .billing-form {
+    width: 70%;
+  }
+  .fa-check {
+    padding: 20px;
+    font-size: 35px;
+  }
+  .confirm-payment {
+    width: 75%;
+  }
+  .confirm-payment p {
+    font-size: 24px;
+  }
+  .items-payment,
+  .total,
+  .thead,
+  .card-details label,
+  .card-details input {
+    width: 85%;
+  }
+
+  .thead p {
+    font-size: 25px;
+  }
+  tr td {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .pg-four-con,
+  .taskone-pg-three table,
+  .taskone-pg-three form,
+  .billing-form {
+    width: 80%;
+  }
+  .fa-check {
+    font-size: 30px;
+  }
+  .confirm-payment {
+    width: 80%;
+  }
+  .confirm-payment p {
+    font-size: 22px;
+  }
+  .items-payment,
+  .total,
+  .thead,
+  .card-details label,
+  .card-details input {
+    width: 90%;
+  }
+  .thead p {
+    font-size: 24px;
+  }
+  tr td {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .pg-four-con,
+  .taskone-pg-three table,
+  .taskone-pg-three form,
+  .billing-form {
+    width: 90%;
+  }
+  .fa-check {
+    font-size: 25px;
+  }
+  .confirm-payment {
+    width: 90%;
+  }
+  .confirm-payment p {
+    font-size: 20px;
+  }
+  .thead p {
+    font-size: 22px;
+  }
+}
+
+.desc {
+  color: #000;
+  font-size: ;
 }
