@@ -24,12 +24,6 @@
   background-color: #fff;
   border-radius: 10px;
 }
-/* .location div {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-} */
 
 /* page two */
 .billing-form {
@@ -38,35 +32,37 @@
   align-items: center;
   width: 60%;
   margin: auto;
-  color: rgba(12, 12, 85, 0.787);
-  height: 100vh;
 }
-.billing-form label,
-.billing-form .card-details {
+.billing-form label p {
+  font-weight: 600;
+}
+.card-details {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.card-details div,
+.card-no {
+  width: 50%;
+}
+.card-details-g {
+  width: 40%;
+}
+.card-no label {
+  padding: 5% 0;
+}
+.card-details-g label {
+  padding: 10% 0;
+}
 .billing-final {
   width: 100%;
 }
-.card-details label {
-  width: 80%;
-}
-.card-details {
-}
-/* .billing-form input,
-.card-details input,
-select {
-  padding: 15px 10px;
-  font-size: 26px;
-  border-radius: 10px;
-} */
+
 /* page three */
 .taskone-pg-three {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
 }
 .taskone-pg-three table {
   display: flex;
@@ -153,15 +149,12 @@ tr td {
   padding: 30px;
   font-size: 45px;
 }
-.confirm-payment {
-  width: 65%;
-}
+
 .confirm-payment h1 {
   color: rgba(12, 12, 85, 0.787);
 }
 .confirm-payment p {
   color: rgb(73, 73, 73);
-  font-size: 26px;
 }
 .home-link {
   color: rgba(199, 139, 28, 0.918);
@@ -203,18 +196,9 @@ tr td {
     width: 50%;
     margin-left: 10px;
   }
-  .input-select {
-    padding: 2.5% 0;
-  }
   .fa-check {
     padding: 20px;
     font-size: 35px;
-  }
-  .confirm-payment {
-    width: 75%;
-  }
-  .confirm-payment p {
-    font-size: 24px;
   }
   .items-payment,
   .total,
@@ -245,18 +229,17 @@ tr td {
   .input-select-location {
     width: 100%;
   }
-  .input-select {
-    padding: 2% 0;
+  ..input-select-location {
+    margin: 0px;
   }
+  .card-details {
+    flex-direction: column;
+  }
+
   .fa-check {
     font-size: 30px;
   }
-  .confirm-payment {
-    width: 80%;
-  }
-  .confirm-payment p {
-    font-size: 22px;
-  }
+
   .items-payment,
   .total,
   .thead,
@@ -281,16 +264,11 @@ tr td {
   .fa-check {
     font-size: 25px;
   }
-  .confirm-payment {
-    width: 90%;
-  }
-  .confirm-payment p {
-    font-size: 20px;
-  }
-  .thead p {
-    font-size: 22px;
-  }
 }
 .card-details-g label {
   width: 90%;
+}
+
+.input-select-location {
+  background-color: transparent;
 }

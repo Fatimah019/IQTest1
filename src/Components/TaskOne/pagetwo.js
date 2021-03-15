@@ -28,8 +28,8 @@ export default class PageTwo extends Component {
               </select>
             </label>
           </label>
-          <div className="flex space-between card-details">
-            <div>
+          <div className="card-details">
+            <div className="card-no">
               <label>
                 <p>
                   Card details <sup>*</sup>
