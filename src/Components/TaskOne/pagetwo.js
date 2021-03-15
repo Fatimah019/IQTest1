@@ -37,7 +37,7 @@ export default class PageTwo extends Component {
                 />
               </label>
             </div>
-            <div className="flex space-between text-center">
+            <div className="flex space-between text-center card-details-g">
               <label className="text-center">
                 <p>
                   Expiry date <sup>*</sup>
@@ -63,7 +63,7 @@ export default class PageTwo extends Component {
               <Link to="/confirm-payment" className="btn">
                 Next
               </Link>
-              <Link to="/cancel-payment" className="link-page">
+              <Link to="/" className="link-page">
                 Cancel Payment
               </Link>
             </div>

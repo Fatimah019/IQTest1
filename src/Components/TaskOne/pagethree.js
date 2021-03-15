@@ -37,7 +37,7 @@ export default class PageThree extends Component {
             <Link to="/payment-complete" className="btn">
               Pay
             </Link>
-            <Link to="/cancel-payment" className="link-page">
+            <Link to="/" className="link-page">
               Cancel Payment
             </Link>
           </div>

@@ -24,3 +24,28 @@
   align-items: center;
   padding-bottom: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  .task-one-header {
+    width: 70%;
+  }
+  .task-one-header ul li .links {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .task-one-header {
+    width: 80%;
+  }
+  .task-one-header ul li .links {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .task-one-header {
+    width: 90%;
+  }
+  .task-one-header ul li .links {
+    font-size: 20px;
+  }
+}

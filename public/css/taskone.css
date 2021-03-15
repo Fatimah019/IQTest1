@@ -184,10 +184,15 @@ tr td {
 /* media queries */
 
 @media screen and (max-width: 768px) {
+  .location,
+  .card-details-g {
+    flex-direction: column;
+  }
   .pg-four-con,
   .taskone-pg-three table,
   .taskone-pg-three form,
-  .billing-form {
+  .billing-form,
+  .task-one-pg-1 {
     width: 70%;
   }
   .fa-check {
@@ -219,7 +224,8 @@ tr td {
   .pg-four-con,
   .taskone-pg-three table,
   .taskone-pg-three form,
-  .billing-form {
+  .billing-form,
+  .task-one-pg-1 {
     width: 80%;
   }
   .fa-check {
@@ -249,7 +255,8 @@ tr td {
   .pg-four-con,
   .taskone-pg-three table,
   .taskone-pg-three form,
-  .billing-form {
+  .billing-form,
+  .task-one-pg-1 {
     width: 90%;
   }
   .fa-check {
@@ -268,5 +275,5 @@ tr td {
 
 .desc {
   color: #000;
-  font-size: ;
+  font-size: 18px;
 }

@@ -60,7 +60,7 @@ class TaskFour extends React.Component {
               return (
                 <div className="container-fluid">
                   <h3>{cases.state}</h3>
-                  <div className="cases-summary-general">
+                  <div className="cases-summary-general-2">
                     <div className="justify-content-center text-center cases-summary">
                       <p>Discharged</p>
                       <div className="text-center">

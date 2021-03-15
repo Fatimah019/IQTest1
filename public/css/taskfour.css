@@ -15,11 +15,15 @@ header h3 {
 header div h4 {
   font-size: 24px;
 }
-.cases-summary-general {
+.cases-summary-general,
+.cases-summary-general-2 {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   overflow: auto;
   position: sticky;
+}
+.cases-summary-general-2 {
+  overflow: auto;
 }
 .cases-summary {
   width: 100%;

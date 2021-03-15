@@ -20,9 +20,9 @@ class TaskOne extends React.Component {
               </p>
               <div>
                 {" "}
-                <span class="email-info">
+                <p class="desc">
                   The purchase receipt will be sent to this address
-                </span>
+                </p>
               </div>
               <input type="email" placeholder="OparaLinusAhmed@devmail.com" />
             </label>
@@ -40,7 +40,7 @@ class TaskOne extends React.Component {
               <input type="text" placeholder="and here" />
             </label>
             <br />
-            <label className="flex space-between">
+            <label className="flex space-between location">
               <div>
                 {" "}
                 <p>Local Government</p>
@@ -48,15 +48,15 @@ class TaskOne extends React.Component {
               </div>
               <div>
                 <p>State</p>
-                <input type="text" placeholder="Surulere" />
+                <input type="text" placeholder="Lagos" />
               </div>
             </label>
 
             <div className="flex align-center forward">
-              <Link to="/confirm-payment" className="btn">
+              <Link to="/billing" className="btn">
                 Next
               </Link>
-              <Link to="/cancel-payment" className="link-page">
+              <Link to="/" className="link-page">
                 Cancel Payment
               </Link>
             </div>
