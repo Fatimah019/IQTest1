@@ -61,25 +61,25 @@ class TaskFour extends React.Component {
                 <div className="container-fluid">
                   <h3>{cases.state}</h3>
                   <div className="flex space-between align-center cases-summary-general">
-                    <div className="justify-content-center text-center cases-summary align-center">
+                    <div className="flex space-between text-center cases-summary align-center">
                       <p>Discharged</p>
                       <div className="text-center">
                         <p>{cases.discharged}</p>
                       </div>
                     </div>
-                    <div className="justify-content-center text-center cases-summary align-center">
+                    <div className="flex space between text-center cases-summary align-center">
                       <p className="no-text-wrap">Death Cases</p>
                       <div className="text-center">
                         <p>{cases.death}</p>
                       </div>
                     </div>
-                    <div className="justify-content-center text-center cases-summary align-center">
+                    <div className="flex space-between text-center cases-summary align-center">
                       <p className="no-text-wrap">Confirmed Cases</p>
                       <div className="text-center">
                         <p>{cases.confirmedCases}</p>
                       </div>
                     </div>
-                    <div className="justify-content-center text-center cases-summary align-center">
+                    <div className="flex space-between text-center cases-summary align-center">
                       <p className="no-text-wrap">On Admission</p>
                       <div className="text-center">
                         <p>{cases.casesOnAdmission}</p>
