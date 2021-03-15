@@ -1,6 +1,7 @@
 .task-one-pg-1 {
   width: 60%;
   margin: auto;
+  height: 100vh;
 }
 .task-one-pg-1 form,
 .task-one-pg-1 form label {
@@ -64,6 +65,7 @@
   width: 60%;
   margin: auto;
   color: rgba(12, 12, 85, 0.787);
+  height: 100vh;
 }
 .billing-form label,
 .billing-form .card-details {
@@ -90,6 +92,7 @@ select {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 100vh;
 }
 .taskone-pg-three table {
   display: flex;
