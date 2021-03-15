@@ -58,11 +58,11 @@ class TaskFour extends React.Component {
           <div>
             {this.props.covidcases.states.map((cases) => {
               return (
-                <div className="container-fluid">
+                <div className="container-fluid no-text-wrap">
                   <h3>{cases.state}</h3>
                   <div className="cases-summary-general-2">
                     <div className="justify-content-center text-center cases-summary">
-                      <p className="no-text-wrap">Discharged</p>
+                      <p>Discharged</p>
                       <div className="text-center">
                         <p>{cases.discharged}</p>
                       </div>
