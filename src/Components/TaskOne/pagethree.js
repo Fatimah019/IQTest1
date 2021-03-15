@@ -26,6 +26,7 @@ export default class PageThree extends Component {
             </tr>
           </div>
           <hr />
+
           <div className="flex space-between total">
             <td>Total</td>
             <td>50,000.00</td>

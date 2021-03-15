@@ -16,7 +16,11 @@
 .input-select-location {
   width: 50%;
   margin-left: 40px;
+  background-color: transparent;
+  outline: none;
+  border: none;
 }
+
 .input-select {
   width: 100%;
   padding: 3.5% 0;
@@ -97,11 +101,11 @@
   margin-top: 25px;
   margin-bottom: 25px;
 }
-.hr {
+hr {
   width: 90%;
   margin: auto;
-  padding: 0.5px 0;
-  background-color: rgba(12, 12, 85, 0.787);
+  border: 0.5px solid rgba(12, 12, 85, 0.787);
+  margin-bottom: 30px;
 }
 .total {
   border: 1px solid rgba(12, 12, 85, 0.787);
@@ -149,7 +153,9 @@ tr td {
   padding: 30px;
   font-size: 45px;
 }
-
+.confirm-payment {
+  width: 70%;
+}
 .confirm-payment h1 {
   color: rgba(12, 12, 85, 0.787);
 }
@@ -213,6 +219,9 @@ tr td {
   tr td {
     font-size: 22px;
   }
+  .confirm-payment {
+    width: 80%;
+  }
 }
 @media screen and (max-width: 600px) {
   .pg-four-con,
@@ -229,7 +238,7 @@ tr td {
   .input-select-location {
     width: 100%;
   }
-  ..input-select-location {
+  .input-select-location {
     margin: 0px;
   }
   .card-details {
@@ -252,6 +261,9 @@ tr td {
   tr td {
     font-size: 20px;
   }
+  .confirm-payment {
+    width: 90%;
+  }
 }
 @media screen and (max-width: 480px) {
   .pg-four-con,
@@ -264,11 +276,4 @@ tr td {
   .fa-check {
     font-size: 25px;
   }
-}
-.card-details-g label {
-  width: 90%;
-}
-
-.input-select-location {
-  background-color: transparent;
 }

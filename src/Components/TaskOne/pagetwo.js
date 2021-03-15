@@ -28,7 +28,7 @@ export default class PageTwo extends Component {
               </select>
             </label>
           </label>
-          <div className="card-details">
+          {/* <div className="card-details">
             <div className="card-no">
               <label>
                 <p>
@@ -70,7 +70,7 @@ export default class PageTwo extends Component {
               </label>
             </div>
           </div>
-          <br />
+          <br /> */}
 
           <div class="billing-final">
             <div className="flex align-center forward">
