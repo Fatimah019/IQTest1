@@ -59,7 +59,7 @@ class CovidCases extends React.Component {
             {this.props.covidcases.states.map((cases) => {
               return (
                 <div className="container-fluid">
-                  <h2>{cases.state}</h2>
+                  <h3>{cases.state}</h3>
                   <div className="flex space-between align-center cases-summary-general">
                     <div className="text-center cases-summary-2 align-center">
                       <p className="no-text-wrap">Discharged</p>

@@ -6,19 +6,7 @@ body {
   padding: 0px;
   margin: 0px;
   height: 100%;
-  /* background: linear-gradient(
-    -10deg,
-    rgba(255, 255, 255, 0.9),
-    35%,
-    rgba(139, 40, 148, 0.3) center center / 400px 200px,
-    no-repeat
-  ); */
-  background: linear-gradient(rgba(219, 145, 195, 0.3), rgb(255, 255, 255));
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 50% 50%;
 }
-
 h1 {
   font-size: 45px;
 }
@@ -32,10 +20,6 @@ p {
 }
 li {
   list-style-type: none;
-}
-a {
-  text-decoration: none;
-  cursor: pointer;
 }
 .container {
   width: 80%;
@@ -73,86 +57,10 @@ a {
 .no-text-wrap {
   white-space: nowrap;
 }
-.input {
-  width: 100%;
-  padding: 2% 0;
-  border: 1px solid rgba(12, 12, 85, 0.787);
-  background-color: #fff;
-  border-radius: 10px;
-}
-
-input,
-select {
-  width: 95%;
-  background-color: transparent;
-  border: none;
-  outline: none;
-}
-select {
-  color: rgba(0, 0, 0, 0.6);
-  background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png)
-    no-repeat right #ddd;
-  -webkit-appearance: none;
-  background-color: transparent;
-}
-form,
-label {
-  width: 100%;
-  margin: auto;
-}
-
-/* static stylings */
-.btn {
-  padding: 10px 20px;
-  background: linear-gradient(
-    rgba(221, 221, 158, 0.9),
-    rgba(199, 139, 28, 0.918)
-  );
-  color: #fff;
-  width: 25%;
-  text-align: center;
-  font-size: 30px;
-  border-radius: 5px;
-  margin-right: 20px;
-}
-.link-page {
-  color: rgba(12, 12, 85, 0.787);
-  font-weight: 800;
-  font-size: 28px;
-}
-.forward {
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-sup {
-  color: red;
-}
 
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 50px;
-  }
-  p,
-  .input {
-    padding: 2.5% 0;
-  }
-  input,
-  select {
-    font-size: 22;
-  }
-  /* static stylings */
-  .btn {
-    text-align: center;
-    font-size: 24px;
-    margin-right: 20px;
-  }
-  .link-page {
-    font-weight: 700;
-    font-size: 24px;
-  }
-  .forward {
-    margin-top: 40px;
-    margin-bottom: 40px;
   }
 }
 
@@ -160,47 +68,10 @@ sup {
   h1 {
     font-size: 35px;
   }
-  h2 {
-    font-size: 28px;
-  }
-
-  .btn {
-    font-size: 22px;
-  }
-  .link-page {
-    font-size: 22px;
-  }
-  .forward {
-    margin-top: 35px;
-    margin-bottom: 35px;
-  }
-  .no-text-wrap {
-    white-space: nowrap;
-    margin-right: 15px;
-  }
 }
 
 @media screen and (max-width: 480px) {
   h1 {
     font-size: 28px;
-  }
-  h2 {
-    font-size: 16px;
-  }
-  h3 {
-    font-size: 20px;
-  }
-  p,
-  input,
-  select {
-    font-size: 20px;
-  }
-
-  .link-page {
-    font-size: 20px;
-  }
-  .forward {
-    margin-top: 30px;
-    margin-bottom: 30px;
   }
 }
