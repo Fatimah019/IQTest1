@@ -60,9 +60,6 @@ h3 {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-  h3 {
-    font-size: 24px;
-  }
 }
 
 @media screen and (max-width: 600px) {
