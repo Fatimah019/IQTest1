@@ -2,10 +2,10 @@
   width: 60%;
   margin: auto;
 }
-.task-one-pg-1 label p {
+.task-one-pg-1 div p {
   font-weight: 600;
 }
-.task-one-pg-1 label .desc {
+.task-one-pg-1 div .desc {
   color: rgba(0, 0, 0, 0.3);
   font-size: 20px;
 }
@@ -41,13 +41,17 @@
   font-weight: 600;
 }
 .card-details {
-  width: 100%;
+  width: 70%;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 .card-no {
-  width: 50%;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .card-details-g {
   width: 40%;
@@ -151,7 +155,10 @@ tr td {
   box-shadow: 4px 4px rgba(121, 120, 120, 0.3);
   border-radius: 100%;
   padding: 30px;
-  font-size: 45px;
+  font-size: 65px;
+  color: green;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .confirm-payment {
   width: 70%;

@@ -7,7 +7,7 @@ class PageFour extends Component {
       <div className="taskone-pg-four">
         <div className="pg-four-con">
           <div>
-            <i className="fa fa-check">check</i>
+            <i className="fa fa-check"></i>
           </div>
           <div class="confirm-payment">
             <h1>Purchase Completed</h1>

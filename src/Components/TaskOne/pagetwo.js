@@ -28,6 +28,35 @@ export default class PageTwo extends Component {
               </select>
             </label>
           </label>
+          {/* last line */}
+          {/* <label className="flex space-between">
+            <label className="card-details">
+              <p>
+                Name on Card <sup>*</sup>
+              </p>
+              <label class="flex align-center justify-content-center input">
+                <input type="text" placeholder="Opara Linus Ahmed" />
+              </label>
+            </label>
+            <label className="card-no">
+              <label>
+                <p>
+                  Name on Card <sup>*</sup>
+                </p>
+                <label class="flex align-center justify-content-center input">
+                  <input type="text" placeholder="Opara Linus Ahmed" />
+                </label>
+              </label>
+              <label>
+                <p>
+                  Name on Card <sup>*</sup>
+                </p>
+                <label class="flex align-center justify-content-center input">
+                  <input type="text" placeholder="Opara Linus Ahmed" />
+                </label>
+              </label>
+            </label>
+          </label> */}
           {/* <div className="card-details">
             <div className="card-no">
               <label>

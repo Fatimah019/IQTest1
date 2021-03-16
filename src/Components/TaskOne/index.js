@@ -9,14 +9,13 @@ class TaskOne extends React.Component {
         <Menu />
         <div className="task-one-pg-1">
           <form>
-            <label>
+            <div>
               <p>Name</p>
               <label class="flex align-center justify-content-center input">
                 <input type="text" placeholder="Opara Linus Ahmed" />
               </label>
-            </label>
-            <br />
-            <label>
+            </div>
+            <div>
               <p>
                 Email Address <sup>*</sup>
               </p>
@@ -26,9 +25,8 @@ class TaskOne extends React.Component {
               <label class="flex align-center justify-content-center input">
                 <input type="email" placeholder="OparaLinusAhmed@devmail.com" />
               </label>
-            </label>
-            <br />
-            <label>
+            </div>
+            <div>
               <p>Address 1</p>
               <label class="flex align-center justify-content-center input">
                 <input
@@ -36,15 +34,13 @@ class TaskOne extends React.Component {
                   placeholder="The Address of the user goes here"
                 />
               </label>
-            </label>
-            <br />
-            <label>
+            </div>
+            <div>
               <p>Address 2</p>
               <label class="flex align-center justify-content-center input">
                 <input type="text" placeholder="and here" />
               </label>
-            </label>
-            <br />
+            </div>
 
             <div className="location">
               <label>
@@ -65,22 +61,6 @@ class TaskOne extends React.Component {
                 </label>
               </label>
             </div>
-
-            {/* <label className="flex space-between location">
-              <div>
-                {" "}
-                <p>Local Government</p>
-                <label class="flex align-center justify-content-center input">
-                  <input type="text" placeholder="Surulere" />
-                </label>
-              </div>
-              <div>
-                <p>State</p>
-                <label class="flex align-center justify-content-center input">
-                  <input type="text" placeholder="Lagos" />
-                </label>
-              </div>
-            </label> */}
 
             <div className="flex align-center forward">
               <Link to="/billing" className="btn">

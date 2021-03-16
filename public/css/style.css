@@ -6,7 +6,17 @@ body {
   padding: 0px;
   margin: 0px;
   height: 100%;
-  background-color: rgb(223, 212, 224);
+  /* background: linear-gradient(
+    -10deg,
+    rgba(255, 255, 255, 0.9),
+    35%,
+    rgba(139, 40, 148, 0.3) center center / 400px 200px,
+    no-repeat
+  ); */
+  background: linear-gradient(rgba(219, 145, 195, 0.3), rgb(255, 255, 255));
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
 }
 
 h1 {
@@ -90,7 +100,10 @@ label {
 /* static stylings */
 .btn {
   padding: 10px 20px;
-  background-color: rgba(199, 139, 28, 0.918);
+  background: linear-gradient(
+    rgba(221, 221, 158, 0.9),
+    rgba(199, 139, 28, 0.918)
+  );
   color: #fff;
   width: 25%;
   text-align: center;

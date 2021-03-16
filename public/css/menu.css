@@ -17,12 +17,12 @@
   font-size: 28px;
 }
 
-.active {
+li {
   background-color: transparent;
-  /* border-bottom: 10px solid yellow; */
   display: flex;
   align-items: center;
   padding-bottom: 30px;
+  position: relative;
 }
 
 @media screen and (max-width: 768px) {
