@@ -41,6 +41,10 @@ a {
   width: 80%;
   margin: auto;
 }
+.container-fluid {
+  width: 90%;
+  margin: auto;
+}
 .text-center {
   text-align: center;
 }

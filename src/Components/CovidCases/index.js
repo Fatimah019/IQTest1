@@ -4,7 +4,7 @@ import { withRouter } from "react-router-dom";
 import { fetchCovidCasesInNigeria } from "../../ReduxSetup/Actions/covid";
 import PropTypes from "prop-types";
 
-class TaskFour extends React.Component {
+class CovidCases extends React.Component {
   componentDidMount() {
     this.props.fetchCovidCasesInNigeria(this.state);
   }
@@ -59,7 +59,7 @@ class TaskFour extends React.Component {
             {this.props.covidcases.states.map((cases) => {
               return (
                 <div className="container-fluid">
-                  <h3>{cases.state}</h3>
+                  <h2>{cases.state}</h2>
                   <div className="flex space-between align-center cases-summary-general">
                     <div className="text-center cases-summary-2 align-center">
                       <p className="no-text-wrap">Discharged</p>
@@ -97,7 +97,7 @@ class TaskFour extends React.Component {
   }
 }
 
-TaskFour.propTypes = {
+CovidCases.propTypes = {
   fetchCovidCasesInNigeria: PropTypes.array.isRequired,
 };
 
@@ -106,5 +106,5 @@ const mapStateToProps = (state) => ({
 });
 
 export default connect(mapStateToProps, { fetchCovidCasesInNigeria })(
-  withRouter(TaskFour)
+  withRouter(CovidCases)
 );
