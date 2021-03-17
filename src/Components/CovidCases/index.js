@@ -62,9 +62,9 @@ class CovidCases extends React.Component {
                   <h3>{cases.state}</h3>
                   <div className="flex space-between align-center cases-summary-general">
                     <div className="text-center cases-summary-2 align-center">
-                      <p className="no-text-wrap">Discharged</p>
+                      <span className="no-text-wrap">Discharged</span>
                       <div className="text-center">
-                        <p>{cases.discharged}</p>
+                        <span>{cases.discharged}</span>
                       </div>
                     </div>
                     <div className="text-center cases-summary-2 align-center">
