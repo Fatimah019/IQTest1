@@ -68,7 +68,7 @@ li {
     font-size: 30px;
   }
   p {
-    font-size: 21;
+    font-size: 20;
   }
 }
 
@@ -78,6 +78,9 @@ li {
   }
   h2 {
     font-size: 26px;
+  }
+  p {
+    font-size: 18px;
   }
 }
 
@@ -92,6 +95,6 @@ li {
     font-size: 22px;
   }
   p {
-    font-size: 18px;
+    font-size: 16px;
   }
 } */
