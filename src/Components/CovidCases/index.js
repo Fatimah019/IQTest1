@@ -21,25 +21,25 @@ class CovidCases extends React.Component {
         </header>
         <div className="container-fluid cases-summary-general">
           <div className="justify-content-center text-center cases-summary">
-            <p>Discharged Cases</p>
+            <h4>Discharged Cases</h4>
             <div className="text-center discharged">
               <p>{this.props.covidcases.discharged}</p>
             </div>
           </div>
           <div className="justify-content-center text-center cases-summary">
-            <p>Death Cases</p>
+            <h4>Death Cases</h4>
             <div className="text-center death">
               <p>{this.props.covidcases.death}</p>
             </div>
           </div>
           <div className="justify-content-center text-center cases-summary">
-            <p>Active Cases</p>
+            <h4>Active Cases</h4>
             <div className="text-center activecase">
               <p>{this.props.covidcases.totalActiveCases}</p>
             </div>
           </div>
           <div className="justify-content-center text-center cases-summary">
-            <p>Sample Cases</p>
+            <h4>Sample Cases</h4>
             <div className="text-center sample">
               <p>{this.props.covidcases.totalSamplesTested}</p>
             </div>
@@ -62,25 +62,25 @@ class CovidCases extends React.Component {
                   <h3>{cases.state}</h3>
                   <div className="flex space-between align-center cases-summary-general">
                     <div className="text-center cases-summary-2 align-center">
-                      <p className="no-text-wrap">Discharged</p>
+                      <h4 className="no-text-wrap">Discharged</h4>
                       <div className="text-center">
                         <p>{cases.discharged}</p>
                       </div>
                     </div>
                     <div className="text-center cases-summary-2 align-center">
-                      <p className="no-text-wrap">Death Cases</p>
+                      <h4 className="no-text-wrap">Death Cases</h4>
                       <div className="text-center">
                         <p>{cases.death}</p>
                       </div>
                     </div>
                     <div className="text-center cases-summary-2 align-center">
-                      <p className="no-text-wrap">Confirmed Cases</p>
+                      <h4 className="no-text-wrap">Confirmed Cases</h4>
                       <div className="text-center">
                         <p>{cases.confirmedCases}</p>
                       </div>
                     </div>
                     <div className="text-center cases-summary-2 align-center">
-                      <p className="no-text-wrap">On Admission</p>
+                      <h4 className="no-text-wrap">On Admission</h4>
                       <div className="text-center">
                         <p>{cases.casesOnAdmission}</p>
                       </div>
