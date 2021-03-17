@@ -63,6 +63,12 @@ h3 {
 }
 
 @media screen and (max-width: 600px) {
+  header h3 {
+    font-size: 22px;
+  }
+  header div h4 {
+    font-size: 20px;
+  }
   .cases-summary-general {
     display: grid;
     grid-template-columns: repeat(2, minmax(48%, 1fr));
